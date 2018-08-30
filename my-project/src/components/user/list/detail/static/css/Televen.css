@@ -1,0 +1,396 @@
+header{
+    box-shadow: 0 0.2rem 0.43rem rgba(59,172,254,0.1);;
+}
+
+
+.photo{
+    width: 100%;
+    height: 6.78rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+.introduction{
+    width: 100%;
+    height: auto;
+    padding: 0.23rem 0.24rem;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+.one{
+    width: 100%;
+    height: 0.3rem;
+    margin-bottom: 0.15rem;
+    font-size: 0.32rem;
+    color: #4f5b64;
+    line-height: 0.3rem;
+}
+.two{
+    width: 100%;
+    height: 0.35rem;
+    margin-bottom: 0.48rem;
+}
+.two p{
+    width: 100%;
+    height: 0.7rem;
+    font-size: 0.24rem;
+    color: #c9cbcc;
+    line-height: 0.35rem;
+    letter-spacing:0.05rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+
+}
+.three{
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.three .tl{
+    width: 4rem;
+    height: 100%;
+    display: flex;
+
+}
+.three .tl span{
+    font-size: 0.28rem;
+    line-height: 0.3rem;
+    color: #fbb548;
+}
+.three .tl del{
+    margin-left: 0.22rem;
+    color: #c9cbcc;
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+}
+.three .tr{
+    width: 1.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.three .tr .tr1{
+   display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #31d094;
+    box-shadow: 0 0.05rem 0.05rem #c5f1de;
+}
+.three .tr .tr2{
+    color: #c9cbcc;
+    line-height: 0.3rem;
+    font-size: 0.26rem;
+    margin-left: 0.1rem;
+}
+.three .tr .tr3{
+     color: #41b2fc;
+     line-height: 0.3rem;
+     font-size: 0.26rem;
+    margin-left: 0.1rem;
+ }
+.line{
+    width: 100%;
+    height: 0.05rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.line .line1{
+    width: 100%;
+    height: 0.05rem;
+    background: #f0f5f7;
+}
+
+.lingjuan{
+    width: 100%;
+    height: 0.85rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+}
+.lingjuan img{
+    /*display: block;*/
+    width: 0.6rem;
+    height: 0.5rem;
+}
+.lingjuan .lingjuan2{
+    width: 0.7rem;
+    height: 0.3rem;
+    color: #ff844e;
+    font-size: 0.28rem;
+    line-height: 0.24rem;
+    margin-left: 0.08rem;
+}
+.lingjuan .lingjuan3{
+    width: 1.84rem;
+    height: 0.39rem;
+    border-radius: 0.2rem;
+    background: orange;
+    margin-left: 0.13rem;
+    box-shadow: 0rem 0.04rem 0.16rem 0rem
+    rgba(255, 142, 81, 0.3);
+    background: -webkit-linear-gradient(left,#ff943b, #ffc93b);
+    background: -o-linear-gradient(right,#ff943b, #ffc93b);
+    background: -moz-linear-gradient(right,#ff943b, #ffc93b);
+    background: linear-gradient(to right,#ff943b, #ffc93b);
+    font-size: 0.26rem;
+    color: white;
+    text-align: center;
+    line-height: 0.39rem;
+}
+.term{
+    width: 100%;
+    height: 0.25rem;
+    margin-top: 0.28rem;
+}
+.termm{
+    width: 7.5rem;
+    height: 0.25rem;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+.term .termm .term1{
+    width: auto;
+    height: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+.term span:nth-child(1){
+     display: block;
+     width: 0.1rem;
+     height: 0.1rem;
+     border-radius: 50%;
+     background: #31d094;
+     box-shadow: 0 0.05rem 0.05rem #c5f1de;
+
+ }
+.term span:nth-child(2){
+    margin-left: 0.11rem;
+    font-size: 0.24rem;
+    color: #41b2fc;
+    line-height: 0.25rem;
+}
+.root{
+    width: 100%;
+    height: 1.08rem;
+    background: #f1faff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+}
+.root .rl{
+    width: 2.32rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.root .rl .rl1{
+    width: 0.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.21rem;
+    align-items: center;
+}
+
+.rl .rl1 span{
+    font-size: 0.18rem;
+    color:  rgba(59, 172, 254, 0.6);
+}
+.rl .rl1 img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.root .rl .rl2{
+    width: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rl .rl2 span{
+    font-size: 0.18rem;
+    color:  rgba(59, 172, 254, 0.6);
+}
+.rl .rl2 img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.root .rr{
+    width: 4.3rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.2rem;
+}
+.root .rr .rr1{
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background: -webkit-linear-gradient(left,#37e06f, #32d69a);
+    background: -o-linear-gradient(right,#37e06f, #32d69a);
+    background: -moz-linear-gradient(right,#37e06f,#32d69a);
+    background: linear-gradient(to right,#37e06f, #32d69a);
+    box-shadow: 0rem 0.04rem 0.2rem 0rem
+    rgba(55, 223, 116, 0.75);
+    font-size: 0.2rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.root .rr .rr2{
+    width: 1.96rem;
+    height: 0.6rem;
+    background: #3bacfe;
+    border-radius: 0.3rem;
+    font-size: 0.2rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.6rem;
+    box-shadow: 0rem 0.05rem 0.12rem 0rem
+    rgba(59, 172, 254, 0.43);
+}
+
+
+/***************************************************************************/
+.wb-xiangqin{
+    width: 100%;
+    height: 6rem;
+    background: #ffffff;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 5rem;
+    display: none;
+}
+.wb-xiangqin .wb-tu{
+    width: 1.64rem;
+    height: 1.64rem;
+    border-radius: 0.1rem;
+    background: #FFFFFF;
+    position: absolute;
+    top:-0.61rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.03rem 0.43rem  rgba(41,167,255,0.13);
+}
+.wb-xiangqin .wb-tu img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.wb-xiangqin .wb-money{
+    width: 0.82rem;
+    height: 0.36rem;
+    padding: 0.68rem 1.93rem 0 ;
+}
+.wb-xiangqin .wb-money p{
+    font-size: 0.3rem;
+    color: #41b2fc;
+    font-weight: bold;
+}
+.wb-xiangqin ul{
+    width: 100%;
+    height: auto;
+    padding-top: 0.37rem;
+    box-sizing: border-box;
+}
+.wb-xiangqin ul li{
+    font-size: 0.18rem;
+    font-weight: bold;
+    color: #3DADFE;
+}
+.wb-yuan1{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    box-shadow: 0 0.02rem 0.5rem  rgba(68,181,255,0.43);
+    margin-right: 0.1rem;
+}
+.wb-xiangqin ul li.guige{
+    display: flex;
+    align-items: center;
+}
+.wb-yuan2{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius:50%;
+    background: #36d681;
+    box-shadow: 0 0.02rem 0.05rem  rgba(54,214,129,0.43);
+    margin-right: 0.1rem;
+}
+.wb-xiangqin ul li.shuliang{
+    display: flex;
+    align-items: center;
+}
+.wb-xiangqin .wb-cate{
+    width: 2.13rem;
+    height: 1.08rem;
+    background:rgba(231,246,255,0.5);
+    border-radius: 0.1rem;
+    margin-top: 0.2rem;
+    text-align: center;
+    line-height: 1.08rem;
+}
+.wb-xiangqin .wb-tianjia{
+    width: 3rem;
+    height: 0.52rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+.wb-xiangqin .wb-tianjia .wb{
+    width: 1.18rem;
+    height: 100%;
+    background:  rgba(59,172,254,0.1);
+    border-radius: 0.26rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wb-xiangqin .wb-tianjia .wb-jian{
+    background:  rgba(59,172,254,0.1);
+}
+.wb-xiangqin .wb-tianjia .wb-jian img {
+    width: 0.18rem;
+    height: 0.04rem;
+}
+.wb-xiangqin .wb-tianjia .wb-jia{
+    background: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem  rgba(59,172,254,0.43);
+}
+.wb-xiangqin .wb-tianjia .wb-jia img{
+    width: 0.18rem;
+    height: 0.18rem;
+}
+.wb-xiangqin .icon-close-o{
+    color: #41b2fc;
+    position: absolute;
+    top: 0.24rem;
+    right: 0.24rem;
+}

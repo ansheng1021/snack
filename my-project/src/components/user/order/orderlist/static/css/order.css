@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*头部样式开始*/
+header{
+    width: 100%;
+    height: 0.88rem;
+    /*background-color: #f8fcff;*/
+    padding: 0 0.24rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 0.15rem 0.43rem  0 rgba(41,167,255,0.1);
+}
+header .title{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .title .iconfont{
+    font-size:0.4rem;
+    color:#41b2fc;
+    line-height:0.88rem;
+    font-weight:900;
+}
+header .title span{
+    font-size: 0.36rem;
+    color: #41b2fc;
+    line-height: 0.88rem;
+}
+/*头部样式结束*/
+/*横向滚动开始*/
+#wrapper {
+    border-bottom: #a2deff;
+    position: absolute;
+    top: 0.88rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#scroller {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#scroller ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#scroller li {
+    display: block;
+    float: left;
+    width: 1.22rem;
+    height: 100%;
+    font-size: 0.22rem;
+}
+/*横向滚动结束*/
+.middle{
+    position: absolute;
+    top: 1.7rem;
+    bottom: 0.98rem;
+    left: 0;
+    width:calc(100% - 0.48rem);
+    margin: 0 0.24rem;
+    overflow: hidden;
+}
+/*订单开始*/
+.middle .x-DR .x-commodity{
+    width: 100%;
+    height:2.93rem ;
+    display: flex;
+    justify-content: flex-start;
+}
+#x-c-left{
+    width:1.74rem ;
+    height: 1.74rem;
+    margin-right: 0.27rem;
+}
+.x-c-right{
+    width: calc(100% - 2.01rem);
+    height: 1.74rem;
+    position: relative;
+}
+#x-name{
+    width: 100%;
+    margin-bottom: 0.24rem;
+    font-size: 0.3rem;
+    color: #4f5b64;
+    text-align: left;
+}
+#x-li{
+    width: 100%;
+    height: 1.23rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#x-jone{
+    width: 100%;
+    margin-bottom: 0.15rem;
+    font-size: 0.18rem;
+    color: #41b2fc;
+    text-align: left;
+}
+#x-jtwo{
+    width: 100%;
+    margin-bottom: 0.24rem;
+    font-size: 0.22rem;
+    color: #c9cbcc;
+    text-align: left;
+}
+#x-jthree{
+    width: 100%;
+    font-size: 0.22rem;
+    color: #646666;
+    text-align: left;
+}
+#x-jfour{
+    width: 100%;
+    font-size: 0.22rem;
+    color: #646666;
+    text-align: left;
+    position: absolute;
+    left: calc(100% - 0.7rem);
+    bottom: 0;
+}
+#x-jfive{
+    width: 100%;
+    font-size: 0.3rem;
+    color: #fbb548;
+    text-align: left;
+    position: absolute;
+    left: calc(100% - 2.5rem);
+    bottom: -0.8rem;
+}
+.x-blue:before{
+    content: "\02022";
+    color: #41b2fc;
+    margin-right: 0.1rem;
+}
+.x-green:before{
+    content: "\02022";
+    color: #31d094;
+    margin-right: 0.1rem;
+}
+/*订单结束*/
+/*按键开始*/
+.x-an{
+    width:100% ;
+    height: 0.7rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.x-anone{
+    width: 1.96rem;
+    height: 0.61rem;
+    background: linear-gradient(to right,#27d29c,#33e171);
+    box-shadow:0 0.04rem 0.2rem rgba(55,223,116,0.75) ;
+    border-radius: 3rem;
+    margin-left: 0.29rem;
+    font-size: 0.22rem;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+}
+.x-antwo{
+    background: #e7f6ff;
+    box-shadow: none;
+    color: #41b2fc;
+}
+/*按键结束*/
+/*底部样式开始*/
+footer{
+    width: 100%;
+    height: 1rem;
+    background: #f8fcff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.13rem 0.24rem 0.08rem;
+    /*padding: 0 0.24rem;*/
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .sk-tabItem{
+    width: 0.5rem;
+    height: 0.79rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .sk-tabItem img{
+    display: block;
+    height: 0.40rem;
+}
+footer .sk-tabItem h3{
+    color: #41b2fc;
+    font-size: 0.22rem;
+    line-height: 0.4rem;
+    font-weight: normal;
+}
+/*底部样式结束*/
